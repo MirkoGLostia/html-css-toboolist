@@ -78,3 +78,25 @@ header{
 h2::before{
     content: "\23F7";
 }
+
+.list-general{
+    list-style-position: inside;
+    font-size: large;
+    font-weight: 700;
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.done{
+    content: url(../img/done.png);
+    width: 15px;
+}
+
+.not-done{
+    content: url(../img/not-done.png);
+    width: 15px;
+}
