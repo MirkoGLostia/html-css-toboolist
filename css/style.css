@@ -66,3 +66,15 @@ header{
     border-radius: 5px;
     width: 100px;
 }
+
+/* main section 2 */
+
+.distance{
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2::before{
+    content: "\23F7";
+}
