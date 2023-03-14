@@ -1,7 +1,33 @@
+/* general rules */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(246,248,249);
+}
 
+.background-white{
+    background-color: rgb(255,255,255);
+}
+
+/* header */
+
+header{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#header-title{
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
