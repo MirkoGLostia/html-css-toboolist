@@ -149,3 +149,25 @@ li{
     font-size: 10px;
     padding: 5px;
 }
+
+.css-done::after{
+    content: "\2714";
+    color: green;
+    font-size: small;
+    border-color: green;
+    border: solid;
+    border-width: 2px;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.css-not-done::after{
+    content: "\2A2F";
+    color: red;
+    font-size: small;
+    border-color: red;
+    border: solid;
+    border-width: 2px;
+    margin: 3px;
+    border-radius: 50%;
+}
